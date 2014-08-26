@@ -12,7 +12,7 @@ build.properties.local
 build.properties.slave
 configuration.properties.fenix
 configuration.properties.localhost
-
+fenix-webapp.iml
 /target
 /target
 /target
