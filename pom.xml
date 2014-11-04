@@ -23,7 +23,7 @@
 		<version.pt.ist.fenix.ist>1.5.0-SNAPSHOT</version.pt.ist.fenix.ist>
 		<version.pt.ist.fenix.parking>1.0.3</version.pt.ist.fenix.parking>
 		<version.org.fenixedu.ashes.theme>1.1.1</version.org.fenixedu.ashes.theme>
-		<version.org.fenixedu.bennu>3.3.4</version.org.fenixedu.bennu>
+		<version.org.fenixedu.bennu>3.4.0-SNAPSHOT</version.org.fenixedu.bennu>
 		<version.org.fenixedu.bennu.renderers>4.2.1</version.org.fenixedu.bennu.renderers>
 		<version.pt.ist.fenix.framework>2.5.1</version.pt.ist.fenix.framework>
 	</properties>
@@ -37,7 +37,8 @@
 				<configuration>
 					<path>/fenix</path>
 					<port>8080</port>
-					<warSourceDirectory>../fenix/src/main/webapp</warSourceDirectory>
+					<warSourceDirectory>../academic-integration/src/main/webapp</warSourceDirectory>
+					<!-- <warSourceDirectory>../fenix/src/main/webapp</warSourceDirectory> -->
 				</configuration>
 			</plugin>
 			<plugin>
